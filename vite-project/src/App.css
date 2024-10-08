@@ -13,3 +13,18 @@ h3
 {
     text-decoration: underline;
 }
+
+nav
+{
+    background-color: blue;
+    color: white;
+    width: 100vw;
+    height: 10vh;
+}
+
+.container
+{
+    background-color: aqua;
+    width: 20vw;
+    margin: 0 auto;
+}

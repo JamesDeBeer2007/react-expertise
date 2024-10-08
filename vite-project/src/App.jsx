@@ -1,16 +1,17 @@
 import './App.css'
-import Book from './components/book'
 import Booklist from './components/Booklist'
+import Header from './components/Header'
+import Layout from './components/Layout'
 
 function App() {
 
 
   return (
     <>
-      <h1>James's Store Best Sellers: </h1>
-      <div>
-        <Booklist/>
-      </div>
+        <Layout>
+          <Header/>
+          <Booklist/>
+        </Layout>
     </>
   )
 }
